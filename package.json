@@ -1,0 +1,17 @@
+{
+  "name": "docker-multi-stage-build-sandbox",
+  "version": "1.0.0",
+  "description": "My majestic Nuxt.js project",
+  "author": "odan",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
