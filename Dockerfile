@@ -16,5 +16,6 @@ FROM node:${NODE_VERSION}-slim
 WORKDIR /work/
 COPY --from=builder /work/.nuxt/ /work/.nuxt/
 COPY --from=builder /work/node_modules/ /work/node_modules/
+COPY --from=builder /work/package.json /work/
 
-# RUN ["node", ".nuxt/index.js"]
+CMD ["yarn", "start"]
